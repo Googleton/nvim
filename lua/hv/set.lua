@@ -14,6 +14,8 @@ vim.opt.smartindent = true
 
 vim.opt.wrap = false
 
+vim.opt.termguicolors = true
+
 vim.g.mapleader = " "
 
 -- Diagnostic hover

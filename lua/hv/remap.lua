@@ -8,3 +8,5 @@ nnoremap("<leader>ff", "<cmd>Telescope git_files<CR>") -- I use git files instea
 nnoremap("<leader>gf", "<cmd>Telescope find_files<CR>") -- In the unlikely case I'm outside of a git repo...
 nnoremap("<leader>h", "<cmd>tabp<CR>")
 nnoremap("<leader>l", "<cmd>tabn<CR>")
+
+nnoremap("<leader>s", "<cmd>vsplit | lua vim.lsp.buf.definition()<CR>")

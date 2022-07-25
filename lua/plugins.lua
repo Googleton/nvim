@@ -28,6 +28,10 @@ return require('packer').startup(function()
   use "nvim-telescope/telescope.nvim"
   use "nvim-lua/plenary.nvim"
   use "nvim-telescope/telescope-ui-select.nvim"
+  use "feline-nvim/feline.nvim"
 
-  use "Pocco81/AutoSave.nvim"
+
+  -- Git 
+  use "tpope/vim-fugitive"
+  -- use "Pocco81/AutoSave.nvim"
 end)
