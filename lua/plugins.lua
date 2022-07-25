@@ -24,12 +24,12 @@ return require('packer').startup(function()
   -- Rust specific
   use {"simrat39/rust-tools.nvim", branch = 'modularize_and_inlay_rewrite' }
 
-  -- Prettier UI and more ?
-  use "nvim-telescope/telescope.nvim"
-  use "nvim-lua/plenary.nvim"
-  use "nvim-telescope/telescope-ui-select.nvim"
-  use "feline-nvim/feline.nvim"
-
+  -- Prettier UI
+  use "nvim-telescope/telescope.nvim" -- Fuzzy finder 
+  use "nvim-lua/plenary.nvim" -- Not sure 
+  use "nvim-telescope/telescope-ui-select.nvim" -- Fuzzy finder UI 
+  --use "feline-nvim/feline.nvim" -- Bottom line 
+  use {"nvim-lualine/lualine.nvim", requires = { 'kyazdani42/nvim-web-devicons', opt = true }} -- Bottom line
 
   -- Git 
   use "tpope/vim-fugitive"

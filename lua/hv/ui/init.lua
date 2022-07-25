@@ -1,2 +1,6 @@
 require("telescope").load_extension("ui-select")
-require("feline").setup()
+require("lualine").setup({
+    options = {
+        theme = 'tokyonight'
+    }
+})
