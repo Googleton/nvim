@@ -5,7 +5,7 @@ end
 
 local status_ok, handlers = pcall(require, "hv.lsp.handlers")
 if not status_ok then
-	return
+    return
 end
 
 require("hv.lsp.lsp-installer")
@@ -34,4 +34,8 @@ require('rust-tools').setup({
     }
 })
 
-require("autosave").setup()
+require("autosave").setup(
+    {
+        debounce_delay = 350
+    }
+)

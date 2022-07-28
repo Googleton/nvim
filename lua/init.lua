@@ -76,6 +76,8 @@ require("hv/treesitter")
 -- Languages
 require("hv/langs")
 
+-- NeoVIDE specific configs
+require("hv/neovide")
 
 -- Other manual configs that would just be oneliners elsewhere
 require("nvim-autopairs").setup()
