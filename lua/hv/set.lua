@@ -16,6 +16,8 @@ vim.opt.wrap = false
 
 vim.opt.termguicolors = true
 
+vim.opt.signcolumn = "yes"
+vim.opt.ignorecase = true
 vim.g.mapleader = " "
 
 -- Diagnostic hover

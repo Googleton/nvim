@@ -33,3 +33,5 @@ require('rust-tools').setup({
         }
     }
 })
+
+require("autosave").setup()
