@@ -70,7 +70,9 @@ require("hv/lsp")
 
 -- Autocompletion
 require("hv/cmp")
--- TODO: Treesitter probably needs to get enabled
+-- Treesitter probably needs to get enabled
+require("hv/treesitter")
+
 -- Languages
 require("hv/langs")
 
